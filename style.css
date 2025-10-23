@@ -12,13 +12,14 @@ body {
 .benefits-container {
   background-color: #ffffff;
   border: 1px #e6e6e6;
-  margin: 30px;
+  margin: 1.5rem;
   height: 500px;
   width: 1320;
 }
 
 .benefits-container h1 {
   text-align: center;
+  padding: 1rem;
 }
 
 .benefits {
@@ -26,21 +27,24 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   border: 3px solid blue;
+  margin: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .benefits-item {
   border: 2px solid red;
-  width: 25%;
+  width: 30%;
   display: flex;
-  flex-wrap: wrap;
-  /* margin-left: 220px;
-  margin-right: 220px; */
+  justify-content: space-between;
+  gap: 0.5rem;
 }
 
 .benefits-item p {
   border: 2px solid green;
-  margin: 0.5rem;
-  /* margin-left: auto; */
+  padding: 1rem;
 }
 
 .benefits-item img {
