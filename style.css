@@ -12,7 +12,7 @@
 }
 
 body {
-  background: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 .benefits-container {
@@ -59,4 +59,51 @@ body {
   border-radius: 30%;
   background-color: #1a4e8f;
   margin: 0.5rem;
+}
+
+.packages-container {
+  background-color: #1a4e8f;
+  padding: 3rem;
+}
+
+.packages-header {
+  background: #ffffff;
+  margin: auto;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.packages {
+  display: flex;
+  justify-content: center;
+}
+
+.package-item {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  width: 12rem;
+  height: 12rem;
+}
+
+.package-item h3 {
+  color: #1a4e8f;
+}
+
+.package-item button {
+  color: white;
+  background-color: #ff8c42;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  border: none;
+  width: 80%;
 }
