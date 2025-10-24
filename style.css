@@ -279,3 +279,37 @@ footer h3 {
 .play-button:hover {
   background-color: #0f2e5d;
 }
+
+/* Features Section */
+.features h2 {
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.feature-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.feature-item {
+  max-width: 220px;
+}
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+.orange {
+  background-color: #ef8331;
+}
+.feature-item h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.feature-item p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
