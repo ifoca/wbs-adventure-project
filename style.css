@@ -78,6 +78,13 @@ body {
 
 .packages-header h3 {
   font-style: italic;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.packages-header p {
+  font-weight: 400;
+  font-family: "Open Sans Condensed";
 }
 
 .packages {
@@ -99,9 +106,10 @@ body {
   height: 12rem;
 }
 
-.package-item h3 {
+.package-item h2 {
   color: #1a4e8f;
   font-weight: 700;
+  font-family: "Montserrat";
 }
 
 .package-item button {
@@ -112,4 +120,6 @@ body {
   font-style: italic;
   padding: 0.5rem;
   width: 80%;
+  font-weight: 700;
+  font-family: "Open Sans";
 }
