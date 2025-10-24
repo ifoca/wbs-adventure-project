@@ -76,6 +76,10 @@ body {
   text-align: center;
 }
 
+.packages-header h3 {
+  font-style: italic;
+}
+
 .packages {
   display: flex;
   justify-content: center;
@@ -97,13 +101,15 @@ body {
 
 .package-item h3 {
   color: #1a4e8f;
+  font-weight: 700;
 }
 
 .package-item button {
-  color: white;
   background-color: #ff8c42;
   border-radius: 0.3rem;
-  padding: 0.5rem;
   border: none;
+  color: white;
+  font-style: italic;
+  padding: 0.5rem;
   width: 80%;
 }
