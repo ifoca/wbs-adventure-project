@@ -6,11 +6,13 @@
 
   background-color: ligt rgb(21, 17, 17);
 }
+
 .header-main {
   width: 100%;
   height: 80px;
   background-color: gray;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -19,16 +21,19 @@ header {
   color: black;
   padding: 15px 30px;
 }
+
 .my-product {
   background-color: white;
   padding: 10px 30px;
   border-radius: 1%;
   font-weight: bold;
 }
+
 .product-list {
   display: flex;
   gap: 15px;
 }
+
 .product-list div {
   background-color: white;
   padding: 10px 15px;
@@ -84,4 +89,67 @@ body {
   border-radius: 30%;
   background-color: #1a4e8f;
   margin: 0.5rem;
+}
+
+.packages-container {
+  background-color: #1a4e8f;
+  padding: 3rem;
+}
+
+.packages-header {
+  background: #ffffff;
+  margin: auto;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.packages-header h3 {
+  font-style: italic;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.packages-header p {
+  font-weight: 400;
+  font-family: "Open Sans Condensed";
+}
+
+.packages {
+  display: flex;
+  justify-content: center;
+}
+
+.package-item {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  width: 12rem;
+  height: 12rem;
+}
+
+.package-item h2 {
+  color: #1a4e8f;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+
+.package-item button {
+  background-color: #ff8c42;
+  border-radius: 0.3rem;
+  border: none;
+  color: white;
+  font-style: italic;
+  padding: 0.5rem;
+  width: 80%;
+  font-weight: 700;
+  font-family: "Open Sans";
 }
