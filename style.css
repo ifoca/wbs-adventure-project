@@ -77,7 +77,7 @@ body {
 .benefits-item {
   width: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
@@ -102,10 +102,9 @@ body {
 }
 
 .item-text p {
-  /* font-style: italic;
-  font-weight: 700;
-  font-family: "Open Sans"; */
   padding: 0.1rem;
+  font-weight: 400;
+  font-family: "Open Sans Condensed";
 }
 
 .packages-container {
@@ -226,6 +225,11 @@ footer h3 {
   font-style: italic;
 }
 
+.contact-item {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .contact-item a {
   text-decoration: none;
   color: #ffffff;
@@ -235,6 +239,14 @@ footer h3 {
   background-color: #1a4e8f;
 }
 
+.map-item a {
+  text-decoration: none;
+  color: #1a4e8f;
+}
+
+.map-item a:hover {
+  color: #444;
+}
 /* Trusted Companies */
 .trusted-companies {
   margin-bottom: 60px;
@@ -329,4 +341,3 @@ footer h3 {
   font-size: 0.95rem;
   color: #555;
 }
-
