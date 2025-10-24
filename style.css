@@ -201,3 +201,53 @@ footer h3 {
   gap: 3rem;
   list-style: none;
 }
+
+/* Trusted Companies */
+.trusted-companies {
+  margin-bottom: 60px;
+}
+.trusted-text {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 20px;
+}
+.trusted-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.trusted-logos img {
+  width: 100px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+.trusted-logos img:hover {
+  opacity: 1;
+}
+
+/* Trusted Companies */
+.trusted-companies {
+  margin-bottom: 60px;
+}
+.trusted-text {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 20px;
+}
+.trusted-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.trusted-logos img {
+  width: 100px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+.trusted-logos img:hover {
+  opacity: 1;
+}
