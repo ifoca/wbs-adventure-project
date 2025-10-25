@@ -47,7 +47,7 @@
 
 .information{
   display: flex;
-  gap: 30px;
+  gap: 25px;
   padding: 40px 50px;
   background-color: #e6e6e6;
   margin-top: 20px;
@@ -58,12 +58,12 @@
   
 }
 .info-news{
-  flex:2.5;
+  flex:2.6;
   padding: 20px;
   border-radius: 8px;
   color: #000;
   background-color: #ffffff;
-  height: 200px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -71,11 +71,11 @@
 }
 .news-letter{
   flex: 1;
-  padding: 40px;
+  padding: 20px;
   border-radius: 8px;
   color: #000;
   background-color: #ffffff;
-  height: 300px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between
@@ -89,4 +89,36 @@
   
    background-color: orange;
 }  
+.socials{
+  display: flex;
+  gap: 30px;
+  padding: 29px 40px;
+  background-color: #e6e6e6;
+  margin-top: 20px;
+  height: 140px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+  flex-grow: 1;
+  border: 2px #333;
+}
+.news{ 
+display: flex;
+background-color: #ffff;
+color: #FFFFFF;
+width: 160px;
+height: 80px;
+align-items: center;
+border-radius: 6px;
+margin-left: 100px;
+text-align: center;
+text-decoration: none;
+justify-content: center;
+box-sizing: border-box;
+
+
+
+}
+
+
 
