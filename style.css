@@ -27,13 +27,15 @@
   font-weight: bold;
   
 }
-.product-list{
+
+.product-list {
   display: flex;
   gap: 20px;
   margin-left: 70px;
   justify-content: flex-end;
 
 }
+
 .product-list div {
   background-color: #FFFFFF;
   padding: 10px 15px;
