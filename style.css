@@ -123,7 +123,7 @@ box-sizing: border-box;
 }
 .photo-one{
   display: flex;
-  gap: 10px;
+  gap: 13px;
   align-items: center;
 
 }
